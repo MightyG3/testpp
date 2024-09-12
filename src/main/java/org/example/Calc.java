@@ -7,6 +7,7 @@ public class Calc {
         int result;
         result = a + b;
         System.out.printf("Сумма %d и %d равна %d\n", a, b, result);
+        System.out.println("Сумма " + a + " и " + b + " равна " + result );
         return result;
     }
     public int diff(int a, int b){
