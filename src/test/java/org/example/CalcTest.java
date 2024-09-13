@@ -1,10 +1,10 @@
 package org.example;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CalcSummTest {
     @DisplayName("Проверка суммирования  ")
